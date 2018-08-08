@@ -1,5 +1,5 @@
 #!/bin/bash
-cp target/ola.war /home/shankar/Desktop/Git/sbibank/cookbooks/ola_war_deploy/files
+cp target/sbibank.war /home/shankar/Desktop/Git/sbibank/cookbooks/ola_war_deploy/files
 knife ssl check
 knife cookbook upload ola_war_deploy
 docker build -t="jaisriram111/sbi-img" .
