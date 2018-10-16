@@ -1,4 +1,4 @@
-# sample_war_deployment Cookbook
+# nginx Cookbook
 
 TODO: Enter the cookbook description here.
 
@@ -20,14 +20,14 @@ e.g.
 
 ### Cookbooks
 
-- `toaster` - sample_war_deployment needs toaster to brown your bagel.
+- `toaster` - nginx needs toaster to brown your bagel.
 
 ## Attributes
 
 TODO: List your cookbook attributes here.
 
 e.g.
-### sample_war_deployment::default
+### nginx::default
 
 <table>
   <tr>
@@ -37,7 +37,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['sample_war_deployment']['bacon']</tt></td>
+    <td><tt>['nginx']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -46,18 +46,18 @@ e.g.
 
 ## Usage
 
-### sample_war_deployment::default
+### nginx::default
 
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `sample_war_deployment` in your node's `run_list`:
+Just include `nginx` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[sample_war_deployment]"
+    "recipe[nginx]"
   ]
 }
 ```

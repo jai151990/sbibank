@@ -1,9 +1,9 @@
-# sample_war_deployment CHANGELOG
+# nginx CHANGELOG
 
-This file is used to list changes made in each version of the sample_war_deployment cookbook.
+This file is used to list changes made in each version of the nginx cookbook.
 
 ## 0.1.0
-- [your_name] - Initial release of sample_war_deployment
+- [your_name] - Initial release of nginx
 
 - - -
 Check the [Markdown Syntax Guide](http://daringfireball.net/projects/markdown/syntax) for help with Markdown.
